@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= t(:title) %></title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<a href="<%= url_for(:locale => :en) %>" title="English" >English</a> |
+<a href="<%= url_for(:locale => :vi) %>" title="Vietnamese" >Vietnamese</a>
+
+<%= yield %>
+
+<%= debug(params) if Rails.env.development? %>
+
+</body>
+</html>

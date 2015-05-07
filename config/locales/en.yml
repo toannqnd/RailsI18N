@@ -1,0 +1,11 @@
+en:
+  title: "Home"
+  members:
+    listting: "List member"
+    show: "View"
+    edit: "Edit"
+    destroy: "Delete"
+    name: "Name"
+    address: "Address"
+    email: "Email"
+    newmember: "New member"

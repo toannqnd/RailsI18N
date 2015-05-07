@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong><%= t('members.name') %>:</strong>
+  <%= @member.name %>
+</p>
+
+<p>
+  <strong><%= t('members.email') %>:</strong>
+  <%= @member.email %>
+</p>
+
+<p>
+  <strong><%= t('members.address') %>:</strong>
+  <%= @member.address %>
+</p>
+
+<%= link_to 'Edit', edit_member_path(@member) %> |
+<%= link_to 'Back', members_path %>

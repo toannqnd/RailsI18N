@@ -1,0 +1,11 @@
+vi:
+  title: "Trang chủ"
+  members:
+    listting: "Danh sách thành viên"
+    show: "Xem"
+    edit: "Sửa"
+    destroy: "Xoá"
+    name: "Tên"
+    email: "Địa chỉ email"
+    address: "Nơi ở"
+    newmember: "Thêm mới"
