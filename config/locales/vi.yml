@@ -3,6 +3,7 @@ vi:
   members:
     listting: "Danh sách thành viên"
     show: "Xem"
+    back: "Quay lại"
     edit: "Sửa"
     destroy: "Xoá"
     name: "Tên"
